@@ -23,7 +23,7 @@ public class Jogo {
 
         //somar
         if(calculos.getOperacao() == 0) {
-            System.out.println(calculos.getValor1() + " + " + calculos.getValor2());
+            System.out.println(calculos.getValor1() + " + " +calculos.getValor2());
             int resposta = Jogo.input.nextInt();
 
             if(calculos.somar(resposta)) {
